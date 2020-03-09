@@ -9,13 +9,16 @@ import views.DriverView;
  * @author Ali Hajimirza, Logan Testi, Reggie Renteria
  *
  */
-public class Driver {
-	
+void initialdata() {
 	public static  String OS_NAME;
 	private DriverModel model;
 	private DriverView view;
 	private DriverController controller= new DriverController();
+}
 
+public class Driver {
+	
+	initialdata();
 	
 	/**
 	 * Constructor 
